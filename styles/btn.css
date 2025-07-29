@@ -2,17 +2,22 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 35px;
-  height: 30px;
+  width: 28px;
+  height: 25px;
   background: transparent;
   border: none;
   cursor: pointer;
   padding: 0;
+  margin-top: 20px;
+  margin-left: 10px;
+  position: absolute;
+  left: 10px;
+  top: 10px; /* só pra posicionar verticalmente */
 }
 
 .menu-btn span {
   display: block;
-  height: 5px; /*espessura do traço*/
+  height: 2px; /*espessura do traço*/
   background-color: #000;
   border-radius: 2px;
 }

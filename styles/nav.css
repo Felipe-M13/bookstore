@@ -1,14 +1,13 @@
 nav ul {
   display: flex;
-  justify-content: space-between;
   list-style: none;
 }
 
 nav {
   border: solid red;
-  background-color: beige;
 
-  padding: 20px 40px;
+
+  padding: 50px 40px;
 }
 
 nav a {
