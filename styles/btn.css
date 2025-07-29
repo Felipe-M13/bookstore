@@ -1,0 +1,18 @@
+.menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 35px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+.menu-btn span {
+  display: block;
+  height: 5px; /*espessura do traço*/
+  background-color: #000;
+  border-radius: 2px;
+}
