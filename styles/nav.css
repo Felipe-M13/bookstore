@@ -1,0 +1,25 @@
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+nav {
+  border: solid red;
+  background-color: beige;
+
+  padding: 20px 40px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease-in-out;
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav a:hover {
+  color: darkred;
+
+}
