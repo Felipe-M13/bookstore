@@ -6,7 +6,7 @@ nav ul {
 nav {
   border: solid red;
   padding: 40px 40px;
-  /* background-color: black; */
+  background-color: black;
 }
 
 nav a {
