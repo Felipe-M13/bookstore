@@ -1,0 +1,50 @@
+.carrosel {
+  overflow-x: auto;
+  white-space: nowrap;
+  padding: 20px;
+  scroll-behavior: smooth;
+}
+
+.faixa {
+  display: inline-flex;
+  gap: 20px;
+
+}
+
+.livro-destaque {
+  display: flex;
+  flex: 0 0 auto;
+  width: 400px;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.livro-destaque img {
+  width: 120px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-livro {
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.info-livro h2 {
+  margin: 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.mensagem {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #e63946;
+  font-weight: bold;
+}
+
