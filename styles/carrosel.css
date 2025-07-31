@@ -2,6 +2,7 @@
   overflow-x: auto;
   white-space: nowrap;
   padding: 20px;
+  height: auto;
   scroll-behavior: smooth;
   background-color: beige;
 }
@@ -9,6 +10,7 @@
 .faixa {
   display: inline-flex;
   gap: 20px;
+  height: auto;
 
 }
 
@@ -30,10 +32,11 @@
 }
 
 .info-livro {
-  padding: 15px;
+  height: auto;
+  overflow: visible;
+  padding: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .info-livro h2 {
@@ -53,4 +56,11 @@
   font-size: 18px;
   color: #333;
   margin-top: 80px;
+}
+
+.preco {
+  font-size: 1.2rem;
+  color: #27ae60;
+  font-weight: bold;
+  margin-top: 0.5rem;
 }

@@ -1,5 +1,12 @@
-.section-title {
-  font-family: "Alice", serif;
-  font-weight: 400;
-  font-style: normal;
+.section-title h2 {
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 50px ;
+  letter-spacing: 5px;
+  color: #333;
+  text-align: center;
+  text-decoration: underline; /*cria uma sublinhado*/
+  text-decoration-thickness: 3px; /*ajusta a grossura do sublinhado*/
 }
+
