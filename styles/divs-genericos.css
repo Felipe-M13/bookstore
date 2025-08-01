@@ -10,3 +10,18 @@
   text-decoration-thickness: 3px; /*ajusta a grossura do sublinhado*/
 }
 
+.lancamento h2{
+  font-family: "Roboto Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-left: 100px;
+  letter-spacing: 5px;
+}
+
+/* @keyframes pisca { */
+  0% { opacity: 1; }
+  100% { opacity: 0.7; }
+
+}
