@@ -1,116 +1,92 @@
 .carrosel {
-  overflow-x: auto;
-  white-space: nowrap;
-  padding: 20px;
-  height: auto;
-  scroll-behavior: smooth;
-  background-color: beige;
+  overflow-x: auto; /* Permite rolar horizontalmente se o conteúdo passar do tamanho */
+  white-space: nowrap; /* Impede quebra de linha, tudo fica na mesma linha */
+  padding: 20px; /* Espaçamento interno (dentro do carrossel) */
+  height: auto; /* Altura automática baseada no conteúdo */
+  scroll-behavior: smooth; /* Suaviza o scroll (deslizar mais bonito) */
+  background-color: beige; /* Cor de fundo do carrossel */
 }
 
 .faixa {
-  display: inline-flex;
-  gap: 20px;
-  height: auto;
-
+  display: inline-flex; /* Itens ficam em linha e com comportamento de flexbox */
+  gap: 20px; /* Espaçamento entre os itens da faixa */
+  height: auto; /* Altura se ajusta ao conteúdo */
 }
 
 .livro-destaque {
-  display: flex;
-  flex: 0 0 auto;
-  width: 400px;
-  height: 180px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
+  display: flex; /* Flexbox pros elementos internos se organizarem */
+  flex: 0 0 auto; /* Não cresce nem encolhe, tamanho fixo */
+  width: 400px; /* Largura do banner de livro */
+  height: 180px; /* Altura do banner de livro */
+  background-color: #fff; /* Fundo branco */
+  border-radius: 12px; /* Cantos arredondados */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave pra dar profundidade */
+  overflow: hidden; /* Esconde qualquer coisa que vaze da borda */
 }
 
 .livro-destaque img {
-  width: 120px;
-  height: 100%;
-  object-fit: cover;
+  width: 120px; /* Largura fixa da imagem do livro */
+  height: 100%; /* Altura ocupa tudo verticalmente */
+  object-fit: cover; /* Corta a imagem pra caber certinho */
 }
 
 .info-livro {
-  height: auto;
-  overflow: visible;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
+  height: auto; /* Altura se adapta */
+  overflow: visible; /* Mostra tudo que tiver dentro */
+  padding: 10px; /* Espaço interno */
+  display: flex; /* Flexbox */
+  flex-direction: column; /* Coloca o conteúdo em coluna (um embaixo do outro) */
 }
 
 .info-livro h2 {
-  margin: 0;
-  font-size: 18px;
-  color: #333;
+  margin: 0; /* Remove margem padrão */
+  font-size: 18px; /* Tamanho da fonte do título */
+  color: #333; /* Cor escura do texto */
 }
 
 .mensagem {
-  margin: 5px 0;
-  font-size: 14px;
-  color: #e63946;
-  font-weight: bold;
+  margin: 5px 0; /* Margem vertical de 5px */
+  font-size: 14px; /* Tamanho do texto */
+  color: #e63946; /* Vermelhinho chamativo */
+  font-weight: bold; /* Texto em negrito */
 }
 
 .aviso {
-  font-size: 18px;
-  color: #333;
-  margin-top: 80px;
+  font-size: 18px; /* Tamanho do aviso */
+  color: #333; /* Cor do texto */
+  margin-top: 80px; /* Espaço acima do aviso */
 }
 
 .preco {
-  font-size: 1.2rem;
-  color: #27ae60;
-  font-weight: bold;
-  margin-top: 0.5rem;
+  font-size: 1.2rem; /* Tamanho relativo da fonte */
+  color: #27ae60; /* Verde estiloso */
+  font-weight: bold; /* Negrito */
+  margin-top: 0.5rem; /* Espaço acima */
 }
 
 .banner-container {
-  display: flex;
-  justify-content: center;
-  gap: 15rem; /* espaçamento entre os banners */
-  margin-top: 10rem;
+  display: flex; /* Flexbox pros banners ficarem lado a lado */
+  justify-content: center; /* Centraliza os banners */
+  gap: 15rem; /* Espaço gigante entre os banners */
+  margin-top: 10rem; /* Espaço acima do container */
 }
 
 .banner {
-  display: flex;
-  flex: 0 0 auto;
-  background-image: url(/assets/img\ banner\ 1.jpg);
-  background-size: cover;
-  background-position: center;
-  width: 400px;
-  height: 180px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-
+  display: flex; /* Flex pra alinhar texto dentro */
+  flex: 0 0 auto; /* Tamanho fixo */
+  background-image: url(/assets/img\ banner\ 1.jpg); /* Imagem de fundo */
+  background-size: cover; /* Faz a imagem cobrir tudo */
+  background-position: center; /* Centraliza a imagem */
+  width: 400px; /* Largura */
+  height: 180px; /* Altura */
+  background-color: #fff; /* Cor de fundo (se imagem não carregar) */
+  border-radius: 12px; /* Bordas arredondadas */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombrinha básica */
+  overflow: hidden; /* Esconde o que sair da borda */
 }
 
-.banner-segundo {
-   display: flex;
-  flex: 0 0 auto;
-  background-image: url(/assets/img\ banner\ 2.jpg);
-  background-size: cover;
-  background-position: left;
-  width: 400px;
-  height: 180px;
-  background-color: #fff;
-  border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  overflow: hidden;
-}
-
-.banner-segundo .banner-texto p{
-  padding-top: 60px;
-  padding-left: 20px;
-  font-size: 24px;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
-
-.banner-texto h2{
-  padding-top: 60px;
+.banner-texto h2 {
+  padding-top: 60px; /* Mesma lógica: empurra pra baixo */
   padding-left: 20px;
   font-size: 24px;
   color: #fff;
@@ -118,19 +94,13 @@
 }
 
 .banner-texto a {
-  display: inline-block;
+  display: inline-block; /* Permite aplicar padding e margin */
   margin-top: 10px;
   margin-left: 20px;
-  padding: 10px 20px;
-  background-color: #553e40;
+  padding: 10px 20px; /* Espaço interno do botão */
+  background-color: #553e40; /* Cor do botão */
   color: #fff;
-  text-decoration: none;
-  border-radius: 5px;
+  text-decoration: none; /* Tira o sublinhado */
+  border-radius: 5px; /* Bordas arredondadas */
 }
-.banner-texto p {
-  padding-top: 60px;
-  padding-left: 20px;
-  font-size: 24px;
-  color: #fff;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
-}
+
