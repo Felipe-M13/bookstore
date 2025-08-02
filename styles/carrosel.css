@@ -101,6 +101,14 @@
   overflow: hidden;
 }
 
+.banner-segundo .banner-texto p{
+  padding-top: 60px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
 .banner-texto h2{
   padding-top: 60px;
   padding-left: 20px;
