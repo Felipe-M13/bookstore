@@ -1,4 +1,0 @@
-mudar o idioma para "pt-BR" no html
-dar "cd nome/da/pasta" 
-dpois git branch -M main pra mudar de master pra main
-dpois git init

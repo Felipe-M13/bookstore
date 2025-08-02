@@ -104,3 +104,36 @@
   border-radius: 5px; /* Bordas arredondadas */
 }
 
+.banner-segundo {
+  display: flex;
+  flex: 0 0 auto;
+  background-image: url(/assets/img\ banner\ 2.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 400px;
+  height: 180px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.banner-segundo-texto {
+  padding-top: 60px;
+  padding-left: 20px;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-segundo-texto a {
+  display: inline-block; /* Permite aplicar padding e margin */
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 10px 20px; /* Espaço interno do botão */
+  background-color: #553e40; /* Cor do botão */
+  color: #fff;
+  text-decoration: none; /* Tira o sublinhado */
+  border-radius: 5px; /* Bordas arredondadas */
+  font-size: 18px;
+}
