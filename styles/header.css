@@ -1,0 +1,19 @@
+.topo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  z-index: 1000;
+  cursor: pointer;
+  position: fixed;
+  background-color: white;
+
+}
+
+.nome-livraria {
+  font-size: 26px;
+  font-weight: bold;
+  color: gray;
+  margin-left: 80px;
+  margin-bottom: 30px;
+}
