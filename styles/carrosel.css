@@ -74,7 +74,7 @@
 .banner {
   display: flex; /* Flex pra alinhar texto dentro */
   flex: 0 0 auto; /* Tamanho fixo */
-  background-image: url(/assets/img\ banner\ 1.jpg); /* Imagem de fundo */
+  background-image: url(/assets/banner_1.jpg); /* Imagem de fundo */
   background-size: cover; /* Faz a imagem cobrir tudo */
   background-position: center; /* Centraliza a imagem */
   width: 400px; /* Largura */
@@ -107,7 +107,7 @@
 .banner-segundo {
   display: flex;
   flex: 0 0 auto;
-  background-image: url(/assets/img\ banner\ 2.jpg);
+  background-image: url(/assets/banner_2.jpg);
   background-size: cover;
   background-position: center;
   width: 400px;
