@@ -1,6 +1,6 @@
 ![Página inicial do portal](assets/bookstore.png)
 
-# 💻 Portal de Notícias
+# 💻 Bookstore
 
 Este projeto tem como objetivo criar um site de vendas de livros para praticar e aprimorar fundamentos de **HTML** e **CSS**.
 
